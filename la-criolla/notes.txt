@@ -1,0 +1,110 @@
+<div id="wrapper">
+
+
+<main>
+    
+    <article>
+        <img src="images/tamales.jpg" alt="tamales">
+        <h2>Tamales</h2>
+        <p>One of the most traditional dishes of Peruvian cuisine, people enjoy them for Sunday breakfast served with salsa criolla. Moist, slightly spicy, and with an exotic flavor provided by the banana leave wrapping; stuffed traditionally with pork or chicken.
+        </p>
+    </article>
+    <article>
+        <img src="images/pollo.jpg" alt="pollo a la brasa">
+        <h2>Pollo a la Brasa (Peruvian Roasted Chicken)</h2>
+        <p>
+            The dish originated in the city of Lima in the 1950s. Consisted of a chicken cooked in charcoal and marinated only with salt, served with large sweet potato fries, salad, and sauces as aji.
+        </p>
+    </article>
+    <article>
+        <img src="" alt="">
+        <h2></h2>
+        <p></p>
+    </article>
+    <article>
+        <img src="" alt="">
+        <h2>
+        </h2>
+        <p></p>
+    </article>
+    <section id="menu">
+        Our food is the result of hundreds of years of fusion from the numerous ethnicities that inhabit Peru. At La Criolla, we’ve tried to capture the diversity of Peruvian food in our dishes. You will find a bit of everything that makes our food special, from the fresh and healthy Cebiche and Salads, to the more flavor intense Lomo Saltados and Secos.
+       <h2>
+           <a href="menu.html">VIEW THE FULL MENU →</a>
+       </h2>
+    </section>
+</main>
+<footer>
+    <p>&copy La Criolla Restaurant</p></footer>
+</div>
+
+css
+#wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    font-family: 'Raleway', sans-serif;
+}
+#fondo  {
+    width: 1200px;
+}
+#logo  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    pointer-events: none;
+}
+nav {
+    overflow: auto; background-color: #8c172e;
+    border-radius: 10px 10px 0 0;}
+nav ul{
+    margin: 0; padding: 0; }
+nav ul li {
+    list-style-type: none; float: left; padding: 20px 100px;
+    }
+nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.75rem;}
+nav a:link{
+    color: #fff;}
+nav a:visited{
+    color: #fff;}
+nav a:hover{
+    font-style: italic;}
+main {overflow: auto;}
+#bienvenido {
+    text-align: center;
+    margin: 50px 0;
+}
+#bienvenido h1 {
+    font-size: 2.5rem;
+}
+#bienvenido p{
+    padding: 0 16em;
+}
+article {
+    width: 570px;
+    float: left;
+    margin: 30px 15px;
+}
+article img {
+    width: 570px;
+}
+article h2{
+    font-size: 32px;
+}
+#menu {
+    text-align: left;
+    padding: 10px 15px;
+}
+footer {text-align: right;
+    padding: 15px;
+    background-color: lightgray;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 20px;}
+footer p {
+    margin: 0;
+    padding-right: 60px;}

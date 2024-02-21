@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Criolla Restaurant</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div>
+            <img src="images/mini-logor.svg" alt="mini-logo" class="logo">
+        </div>
+        <div class="menuToggle" onclick="toggleMenu();">
+        </div>
+        <ul class="navigation">
+            <li><a href="#banner">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#specialities">Specialities</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="reserve"><button><a href="#reserve" style="color: white">Reserve</a></button></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <img src="images/logo2.svg" alt="logo-blanco">
+            <h2>Peruvian Restaurant</h2>
+            <a href="#menu" class="btn">Our Menu</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="welcome">
+            <h3>Welcome! La Criolla is a restaurant that serves peruvian food at Uptown, Minneapolis. <br>At La Criolla,
+                passion is the most important ingredient, and we bring you the beauty of Peruvian flavours in every
+                bite.</h3>
+        </div>
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>A</span>bout Us</h2>
+                <p style="text-align: justify">La Criolla team forms a group of expeditioners full of curiosity about Peru. Conscious of the lack of connection, we want to humbly take on the great challenge of getting to know and, in some cases,
+                    getting to know again this beautiful country replete with unique ingredients, landscapes, culture, tradition, and history, but above all those that live there and tell about them.
+                    Our collaborative team works hard to create links, and tries to make visible those elements that in daily life not everyone can see.The expedition we undertake has no destination or end, 
+                    but centers on the constant movement in the observation and the respect of the temporality and the seasonality that Earth dictates.</p>
+                    <h3 class="titleText3"><span>V</span>ision</h3>
+                    <p style="text-align: justify">We opened La Criolla with the dream of presenting the wide diversity and fusion of Peruvian food, using the best
+                        and most authentic ingredients, in a modern presentation. Peruvian cuisine fuses many different ethnicities,
+                        including Spanish, Chinese, Japanese, Italian, and African, and is increasingly being recognized as world class.</p>                
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="images/cocinero.jpg" alt="chef">
+                </div>
+            </div>
+        </div>
+
+    </section>
+        
+    <section class="menu" id="menu">
+        <div class="title">
+            <h2 class="titleText"><span>O</span>ur Menu</h2>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/ceviche.jpg" alt="Ceviche">
+                </div>
+                <div class="text">
+                    <h3>APPETIZERS</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/salads.jfif" alt="Salad">
+                </div>
+                <div class="text">
+                    <h3>SALADS</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/causa.jpg" alt="Causa">
+                </div>
+                <div class="text">
+                    <h3>MAIN DISHES</h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/dessert.jpg" alt="Dessert">
+                </div>
+                <div class="text">
+                    <h3>DESSERTS</h3>
+                </div>
+            </div>
+        </div>
+        <div class="title">
+            <a href="#" class="btn">View All</a>
+        </div>
+    </section>
+    <section class="specialities" id="specialities">
+        <div class="title">
+            <h2 class="titleText"><span>S</span>pecialities</h2>
+            <p>Each month we changed the specialities to let our customer discover the wide variety of flavors from the Peruvian cuisine. This month specialties are Anticucho de Pulpo and Risotto with squash loche.</p>
+        </div>
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/palillos.jpg" alt="Palillos">
+                </div>
+                <div class="text">
+                    <h3>Anticucho de Pulpo</h3>
+                    <p>It is octopus and prawns' brochettes. Octopus stands out for its mineral content, especially zinc. It is a fundamental nutrient in the maintenance of defenses. This dish is accompanied by Peruvian corn, potatoes, lettuce and a spicy sauce.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/arroz.jpg" alt="Green rice">
+                </div>
+                <div class="text">
+                    <h3>
+                        Risotto with squash loche</h3>
+                    <p>This is not a normal dish, it is special. Here the chef was inspired and achieved a spectacular risotto based on squash loche, surrounded by prawns sautéed with garlic in a yellow chili sauce. Incredible fusion of flavors.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="titleText" style="color: white"><span>C</span>ontact Us</h2>
+            <p style="color: white">We are glad to help you.</p>
+        </div>
+        <div class="row">
+            <div class="col50">
+                <div class="contactForm">
+                    <h3>Send Message</h3>
+                    <div class="inputBox">
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="inputBox">
+                        <textarea placeholder="Name"></textarea>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" value="Send">
+                    </div>
+                </div>
+            </div>
+            <div class="col50">
+                <div class="information">
+                    <h3>Visit Us</h3>
+                    <p>2916 Hennepin Ave. <br>
+                        Minneapolis, MN 55408 <br>
+                        Entrance on Hennepin Avenue.<br>
+                        <img src="images/phone-svgrepo-com.svg" alt="phone icon" style="width: 15px;padding-right: 5px;">+15123456456
+                </p>
+                    <h3>Opening Hours</h3>
+                    <p>SUN-THUR <br> 4:30 pm – 12 am <br>
+                        FRI-SAT <br> 4:30 pm – 1 am</p>
+                </div>
+            </div>
+        </div>
+        <div class="row cpT">
+                <p>
+                    Copyright 2021 Leya Salazar
+                    <br>
+                    Project for Class. Minneapolis Community and Technical College.
+                </p>
+        </div>
+    </section>    
+
+<script type="text/javascript">
+    window.addEventListener('scroll', function(){
+        const header = document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY > 0);
+    });
+
+    function toggleMenu(){
+        const menuToggle = document.querySelector('.menuToggle');
+        const navigation = document.querySelector('.navigation');
+        menuToggle.classList.toggle('active');
+        navigation.classList.toggle('active');
+    }
+</script>
+
+</body>
+</html>
