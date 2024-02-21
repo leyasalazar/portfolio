@@ -26,14 +26,15 @@ p{
     transition: 0.5s;
 }
 .navbar-light .navbar-nav .nav-link {
+    transition: 10ms;
     color: rgb(9 0 104);
     font-weight: 900;
     font-size: 1.2rem;
 }
 .navbar-light .navbar-nav .nav-link:hover {
     color: rgb(255 187 46);
-    text-shadow: 0px .4px 0px #868e96;
-    -webkit-text-stroke: 1.5px rgb(9 0 104);
+    text-shadow: 3px 1.5px 4px #2c3033;
+    -webkit-text-stroke: .5px rgb(9 0 104);
 }
 .banner{
     position: relative;
@@ -70,7 +71,7 @@ p{
     text-align: center;
     z-index: 10;
 }
-.contentBox h1{
+.contentBox h2{
     font-size: 3.5rem;
     padding-bottom: 1.5rem;
 }
